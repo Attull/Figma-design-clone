@@ -1,0 +1,38 @@
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+
+  :root{
+    --lightBlue-color:#EDF7FA;
+    --btn-color:#FF6464;
+  }
+
+ul{
+    list-style:none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:black
+}
+
+.d-btn{
+    color:white;
+    border: none;
+}
+.color-reddish{
+    background-color:var(--btn-color)
+}
+
+/* Recent post styling */
+.rp-container{
+    background-color:var(--lightBlue-color)
+}
+
+#line{
+    border: 1px solid red;
+    width:1px;
+    height:1px;
+}
